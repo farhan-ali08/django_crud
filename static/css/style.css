@@ -1,0 +1,6 @@
+.nav-item.active {
+    /* Your custom styles here */
+    color: #ff0000;
+    font-weight: bold;
+    background-color: #c0cedd;
+}
