@@ -24,7 +24,7 @@ def contact(request):
     return render(request, 'contact.html')
 
 def showdata(request):
-    show=contactus.objects.all()
+    show=contactus.objects.all().order_by('-id')
     #data={
      #   'contactus' : show
     #}
